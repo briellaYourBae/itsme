@@ -1,138 +1,252 @@
 <!DOCTYPE html>
-<html lang="en" >
-<head>
-  <meta charset="UTF-8">
-  <title>BriellaYourBae</title>
-  <link rel="icon" type="image/jpg" href="ay.jpg"/>
-  <link rel="stylesheet" href="./style.css">
-
-</head>
-<body>
-z
-<link
-  rel="stylesheet"
-  href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
-  integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
-  crossorigin="anonymous"
-/>
-<link href="https://fonts. <a href = "#welcomegoogleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
-
-<nav id = "navbar">
-  <a href="index.html">Home</a>
-  <a href = "#about" class = "item">About</a>
-  <a href = "#skills" class = "item">Skills</a>
-  <a href = "#projects" class = "item">Projects</a>
-  <a href = "#contact" class = "item">Contact</a>
-</nav>
-
-<div id = "welcome-section">
-  <div id = "main-page-text">
-    <h1>sy, Muhammad Faqih</h1>
-    <p>Gabut saja sih, makannya buat ini.. btw kamu siapa?</p>
-  </div>
-</div>
-
-<div id = "about">
-  <h2>About me</h2>
-  <table>
-    <tr>
-      <td>
-        <p style = "text-align:center; font-size:1.1em;color:whitesmoke;">ngaran kuring Muhammad Faqih,Aing belajaar di SMK N 1 Purwokerto<br><br>  imah kuring di purwokerto wetan</p>
-      </td>
-      <td><img src = "https://i.ibb.co/SPW2jMd/yak.jpg" id = "my-image"></td>
-    </tr>
-  </table>
-  <br><br>
-  <p>
-    <!--span class = "about-span">kosong</span>: gtw <br><br-->
-  </p>
-</div>
-
-<br><br><br>
-
-<div id = "skills">
-  <div id = "skills-box">
-    <h2>Skills</h2>
-    <table id = "skills-table">
-      <tr>
-        <td>HTML</td>
-        <td><div class = "bar" style = "width:80%"></div></td>
-      </tr>
-      <tr>
-        <td>CSS</td>
-        <td><div class = "bar" style = "width:5%"></div></td>
-      </tr>
-      <tr>
-        <td>Javascript</td>
-        <td><div class = "bar" style = "width:85%"></div></td>
-      </tr>
-      <tr>
-        <td>Photography</td>
-        <td><div class = "bar" style = "width:55%"></div></td>
-      </tr>
-    </table>
-    <!--div id = "mentions">
-      <h2>Mentionable Skills</h2>
-      <span>Team Work</span><span>Basic Mechanics knowledge</span><span>Fluent English</span><span>Quick Learner</span><span>Effective Communication (oral and written)</span><span>Training and Helping Others</span><span>Time management</span><span>Multitasking</span>
-      <h2>Education</h2>
-      <p>(20xx - 20xy) The [personal inf] Highschool from [city]</p>
-      <p>(20xy - now)  The [personal inf] university from [city], AIA specialization. (4 years + certification)</p>
-      <p>(20xy - now) The psycho-pedagogical module at the University. (3 years + certification)</p>
-      </p>
-      <br>
-      <h2>Achievements and Others</h2>
-      <p>Finished the FreeCodeCamp Responsive Web Design Course (300h + certificate)</p>
-      <p>I organised coding contests (some alone and some with parteners)</p>
-      <p>Finished the Sololearn HTML, CSS, Javascript and Java Lessons (1 Certificate each)</p>
-      <p>Helped and/or teached everyone who asked me for help in a certain subject</p-->
-    </div>
-  </div>
-</div>
-
-<div id = "projects">
-  <h2 id = "proj-title">These are some of my projects</h2>
-  <!-- 1-->
-  <div class = "project-tile">
-    <div class = "container2">
-      <div class = "projects-texts">
-        <iframe style="max-width:100%" src="https://wordwall.net/embed/3bf093bd10d34ed482d8aadb92d30b79?themeId=23&templateId=48&fontStackId=15" width="500" height="380" frameborder="0" allowfullscreen></iframe><h3 class = "project-title">AirPlane</h3></a>
-        <p>Coba aja dulu</p>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="img/logo.png"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
+    <!--aos-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!--akhir aos-->
+    <link rel="stylesheet" href="style.css" />
+    <title>Briella-WebDev</title>
+  </head>
+  <body id="home">
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow-sm fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">BrieLLaYourBae</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <!-- <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
+            </li> -->
+            <li class="nav-item">
+              <a class="nav-link" href="#about">Who is BrieLLa?</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#project">All Here.</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Ask here!</a>
+            </li>
+          </ul>
+        </div>
       </div>
-      <div class = "num">2</div>
-    </div>
-  </div>
-  <!-- 2-->
-  <div class = "project-tile">
-    <div class = "container2">
-      <img src = "https://cdn.wallpapersafari.com/39/42/ohYNwc.jpg" class = "project-image">
-      <hr>
-      <div class = "projects-texts">
-      <a href = "https://HTML-CSS-JS.briellayourbae.repl.co" target = "_blank"><h3 class = "project-title">Belom Ada (klik disini)</h3></a>
-      <p>req bisa dm instagram di contact</p>
+    </nav>
+    <section class="jumbotron text-center">
+      <img src="img/anime.jpg" alt="NurFadly" width="200px" class="rounded-circle img-thumbnail" />
+      <h1 class="display-4">Muhammad Faqih</h1>
+      <p class="lead">FrontEnd Development</p>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#ffffff"
+          fill-opacity="1"
+          d="M0,192L48,176C96,160,192,128,288,138.7C384,149,480,203,576,197.3C672,192,768,128,864,101.3C960,75,1056,85,1152,112C1248,139,1344,181,1392,202.7L1440,224L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+
+    <section id="about">
+      <div class="container">
+        <div class="row text-center mb-3">
+          <div class="col">
+            <h2>About Me</h2>
+          </div>
+          <div class="row justify-content-center fs-5 text-center">
+            <div class="col-4" data-aos="fade-right" data-aos-duration="1000">
+              <p>"Muhammad Faqih"? Aloooo My name is Muhammad Faqih, born in Banyumas on November 9, 2005. I am the last of 4 children, one sister and the rest a boy.</p>
+            </div>
+            <div class="col-4" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
+              <p> I am a student who is still studying in vocational school. and I am interested in the world of programming because for me programming is cool.</p>
+            </div>
+            <div class="col-4" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
+              <p>Because it can make a good display by just typing.but after knowing databse does not become cool because the database is "DIFFICULT".</p>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class = "num">1</div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#e2edff"
+          fill-opacity="1"
+          d="M0,128L48,144C96,160,192,192,288,202.7C384,213,480,203,576,208C672,213,768,235,864,224C960,213,1056,171,1152,160C1248,149,1344,171,1392,181.3L1440,192L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+
+    <!-- Portfolio Section -->
+<section id="project">
+  <div class="container">
+    <div class="row text-center fs-bold">
+      <div class="col">
+        <h4>Projects and achievements</h4>
+      </div>
     </div>
+      <div class="row g-4">
+          <!-- Portfolio 1 -->
+          <div class="col-md-4">
+              <div class="portfolio card border-2">
+                  <!-- <img src="img/anime.png" alt="" class="card-img-top"> -->
+                  <div class="card-body">
+                      <h4 class="card-title">Projects</h4>
+                      <a href="view/error.html" target="_blank" class="portfolio-link">
+                          <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M14 4h-13v18h20v-11h1v12h-22v-20h14v1zm10 5h-1v-6.293l-11.646 11.647-.708-.708 11.647-11.646h-6.293v-1h8v8z"/></svg>
+                      </a>
+                      <div class="portfolio-tags">
+                          <div class="badge bg-primary">PKK-Muda</div>
+                          <div class="badge bg-primary">WebClassIndustry</div>
+                      </div>
+                      <p class="card-text">
+                        I worked closely with the team in my class to create "OurTask" and there are also individual assignments from "WebClassIndustry". There are many more that I haven't mentioned. 
+                      </p>
+                  </div>
+              </div>
+          </div>
+
+          <!-- Portfolio 2 -->
+          <div class="col-md-4">
+              <div class="portfolio card border-2">
+                  <img src="img/port2.png" alt="" class="card-img-top">
+                  <div class="card-body">
+                      <h4 class="card-title">Achievements</h4>
+                      <a href="ach.html" target="_blank" class="portfolio-link">
+                          <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M14 4h-13v18h20v-11h1v12h-22v-20h14v1zm10 5h-1v-6.293l-11.646 11.647-.708-.708 11.647-11.646h-6.293v-1h8v8z"/></svg>
+                      </a>
+                      <div class="portfolio-tags">
+                        <div class="badge bg-primary">Achievemen</div>
+                          <div class="badge bg-primary">Programming Language</div>
+                      </div>
+                      <p class="card-text">
+                        Achievement? Yes, here I put all my achievements here. 
+                      </p>
+                  </div>
+              </div>
+          </div>
+
+          <!-- Portfolio 3 -->
+          <div class="col-md-4">
+              <div class="portfolio card border-2">
+                  <img src="img/port3.png" alt="" class="card-img-top">
+                  <div class="card-body">
+                      <h4 class="card-title">Social Media</h4>
+                      <a href="https://www.instagram.com/faiqrfq_/?hl=id" target="_blank" class="portfolio-link">
+                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50" viewBox="0 0 30 30">
+                          <path d="M15,3C8.373,3,3,8.373,3,15c0,5.623,3.872,10.328,9.092,11.63C12.036,26.468,12,26.28,12,26.047v-2.051 c-0.487,0-1.303,0-1.508,0c-0.821,0-1.551-0.353-1.905-1.009c-0.393-0.729-0.461-1.844-1.435-2.526 c-0.289-0.227-0.069-0.486,0.264-0.451c0.615,0.174,1.125,0.596,1.605,1.222c0.478,0.627,0.703,0.769,1.596,0.769 c0.433,0,1.081-0.025,1.691-0.121c0.328-0.833,0.895-1.6,1.588-1.962c-3.996-0.411-5.903-2.399-5.903-5.098 c0-1.162,0.495-2.286,1.336-3.233C9.053,10.647,8.706,8.73,9.435,8c1.798,0,2.885,1.166,3.146,1.481C13.477,9.174,14.461,9,15.495,9 c1.036,0,2.024,0.174,2.922,0.483C18.675,9.17,19.763,8,21.565,8c0.732,0.731,0.381,2.656,0.102,3.594 c0.836,0.945,1.328,2.066,1.328,3.226c0,2.697-1.904,4.684-5.894,5.097C18.199,20.49,19,22.1,19,23.313v2.734 c0,0.104-0.023,0.179-0.035,0.268C23.641,24.676,27,20.236,27,15C27,8.373,21.627,3,15,3z"></path>
+                      </svg>
+                      </a>
+                      <a href="https://www.instagram.com/faiqrfq_/?hl=id" target="_blank" class="portfolio-link">
+                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50" viewBox="0 0 50 50">
+                          <path d="M 16 3 C 8.83 3 3 8.83 3 16 L 3 34 C 3 41.17 8.83 47 16 47 L 34 47 C 41.17 47 47 41.17 47 34 L 47 16 C 47 8.83 41.17 3 34 3 L 16 3 z M 37 11 C 38.1 11 39 11.9 39 13 C 39 14.1 38.1 15 37 15 C 35.9 15 35 14.1 35 13 C 35 11.9 35.9 11 37 11 z M 25 14 C 31.07 14 36 18.93 36 25 C 36 31.07 31.07 36 25 36 C 18.93 36 14 31.07 14 25 C 14 18.93 18.93 14 25 14 z M 25 16 C 20.04 16 16 20.04 16 25 C 16 29.96 20.04 34 25 34 C 29.96 34 34 29.96 34 25 C 34 20.04 29.96 16 25 16 z"></path>
+                      </svg>
+                      </a>
+                      <a href="https://www.instagram.com/faiqrfq_/?hl=id" target="_blank" class="portfolio-link">
+                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50" viewBox="0 0 24 24">
+                          <path d="M22,3.999c-0.78,0.463-2.345,1.094-3.265,1.276c-0.027,0.007-0.049,0.016-0.075,0.023c-0.813-0.802-1.927-1.299-3.16-1.299 c-2.485,0-4.5,2.015-4.5,4.5c0,0.131-0.011,0.372,0,0.5c-3.353,0-5.905-1.756-7.735-4c-0.199,0.5-0.286,1.29-0.286,2.032 c0,1.401,1.095,2.777,2.8,3.63c-0.314,0.081-0.66,0.139-1.02,0.139c-0.581,0-1.196-0.153-1.759-0.617c0,0.017,0,0.033,0,0.051 c0,1.958,2.078,3.291,3.926,3.662c-0.375,0.221-1.131,0.243-1.5,0.243c-0.26,0-1.18-0.119-1.426-0.165 c0.514,1.605,2.368,2.507,4.135,2.539c-1.382,1.084-2.341,1.486-5.171,1.486H2C3.788,19.145,6.065,20,8.347,20 C15.777,20,20,14.337,20,8.999c0-0.086-0.002-0.266-0.005-0.447C19.995,8.534,20,8.517,20,8.499c0-0.027-0.008-0.053-0.008-0.08 c-0.003-0.136-0.006-0.263-0.009-0.329c0.79-0.57,1.475-1.281,2.017-2.091c-0.725,0.322-1.503,0.538-2.32,0.636 C20.514,6.135,21.699,4.943,22,3.999z M18,8.999c0,4.08-2.957,8.399-8.466,8.943C10.28,17.413,11,16.662,11,16.662 S8,14,7.775,10.522C8.81,10.838,9.888,10.999,11,10.999h2v-2.5c0-0.001,0-0.001,0-0.001C13.002,7.118,14.12,6,15.5,6 C16.881,6,18,7.119,18,8.5C18,8.5,18,8.92,18,8.999z"></path>
+                      </svg>
+                      </a>
+                      <a href="https://www.instagram.com/faiqrfq_/?hl=id" target="_blank" class="portfolio-link">
+                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50" viewBox="0 0 32 32">
+                          <path d="M 19.59375 2.84375 L 17.96875 3.96875 L 23.5625 12.1875 L 25.1875 11.0625 Z M 15.375 6.53125 L 14.0625 8.03125 L 21.5625 14.53125 L 22.875 13.03125 Z M 12.375 10.90625 L 11.46875 12.6875 L 20.3125 17.1875 L 21.21875 15.40625 Z M 10.65625 15.4375 L 10.21875 17.375 L 19.875 19.65625 L 20.3125 17.71875 Z M 6 18 L 6 29 L 24 29 L 24 18 L 22 18 L 22 27 L 8 27 L 8 18 Z M 10.09375 19.6875 L 9.96875 21.6875 L 19.875 22.25 L 20 20.25 Z M 10 23 L 10 25 L 19.9375 25 L 19.9375 23 Z"></path>
+                          </svg>
+                      </a>
+                      <div class="portfolio-tags">
+                        <div class="badge bg-primary">GitHub</div>
+                          <div class="badge bg-primary">IG</div>
+                          <div class="badge bg-primary">Twitter</div>
+                          <div class="badge bg-primary">StackOverflow</div>
+                      </div>
+                      <p class="card-text">
+                        Click and select the icon above to go to My Media sausage.
+                      </p>
+                  </div>
+              </div>
+          </div>
+      </div>
   </div>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+    <path
+      fill="#ffffff"
+      fill-opacity="1"
+      d="M0,288L48,272C96,256,192,224,288,213.3C384,203,480,213,576,218.7C672,224,768,224,864,197.3C960,171,1056,117,1152,112C1248,107,1344,149,1392,170.7L1440,192L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+    ></path>
+  </svg>
+</section>
 
-  <div id = "see-more"><button><a href = "https://instagram.com/briella.yb/" id = "profile-link" target = "_blank">See more</a></button></div><br><br>
-</div>
+    <!-- Contact -->
+    <section id="contact">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col">
+            <h2>Contact Me</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center mb-3">
+            <div class="contact-left">
+                <form class="contact-form" action="https://formspree.io/f/myyqjwkq" method="POST">
+                    <div>
+                        <input type="text" placeholder="Name" name="name">
+                    </div>
+                    <div>
+                        <input type="email" placeholder="Email" name="email">
+                    </div>
+                    <div>
+                    <textarea name="message" id="message" placeholder="Message" cols="30" rows="10"></textarea>
+                    </div>
+                    <div>
+                        <button class="btn-submit">Send Message</button>
+                    </div>
+                </form>
+            </div>
+      </div>
+    </section>
+    <!-- Akhir Contact -->
+    <!--footer-->
+    <!-- <footer class="container">
+      <div class="footer-icons">
+        <a href="https://www.instagram.com/faiqrfq_/?hl=id" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+            <path
+              d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"
+            />
+          </svg>
+        </a>
+        <a href="https://www.youtube.com/channel/UCtADVQgqvLWJxf5l6uNpvGA" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+            <path
+              d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"
+            />
+          </svg>
+        </a>
+        <a href="https://github.com/faiqrfq" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+            <path
+              d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"
+            />
+          </svg>
+        </a>
+        <p>&#169; 2023 - By NurFadliDwiL</p>
+      </div>
+    </footer>
+    end of footer -->
 
-<div id = "contact">
-  <br>
-  <h1>cek akun sosial media aku bre</h1>
-  <p>infookan saja</p><br>
-  <div id = "others">
-    <a href = "https://HTML-CSS-JS.briellayourbae.repl.co"><i class="fab fa-facebook-square"></i>Facebook</a>
-    <!--a href = "https://HTML-CSS-JS.briellayourbae.repl.co"><i class="fab fa-github"></i>Github</a>
-    <a href = "https://HTML-CSS-JS.briellayourbae.repl.co"><i class="fab fa-twitter"></i>Tweeter</a-->
-    <a href = "https://www.instagram.com/briella.yb/"><i class="fas fa-at"></i>instagram</a></a>
-  </div>
-  
-<br>
-</div>
-<div id = "notifications-container"></div>
-<!-- partikel -->
-  <script  src="./script.js"></script>
-
-</body>
+    <!--footer-->
+    <footer class="container">
+      <p style="color: #000000;">2024 &copy;Briella.yb </p>
+      </div>
+    </footer>
+    <!--end of footer-->
+    <script src="script.js"></script>
+  </body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      once: true,
+    });
+  </script>
 </html>
